@@ -1,10 +1,10 @@
 # GER30 8h OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-587_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-13_677_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full GER30 dataset on ork.ad**](https://ork.ad/)
 
-**GER30 8h OHLCV Stock index historical data** — ultra high-quality 8h OHLCV for **Germany 30 (DAX)**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**GER30 8h OHLCV Stock index historical data** — ultra high-quality 8h OHLCV for **DAX**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,14 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 8h OHLCV** for **Germany 30 (DAX)** (Stock index)
+- **Ultra high-quality 8h OHLCV** for **DAX** (Stock index)
 - **Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`8h`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **587** `8h` rows in the full archive
+- **Free evaluation sample** on GitHub (`8h`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **13,677** `8h` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `8h` sample updated in sync
 
-> **Sample on GitHub** · `GER30_8h.csv` (562 rows, `2025-10-02` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **587** `8h` rows (~0.04 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2025-09-22` → `2026-07-02`.
+> **Sample on GitHub** · `GER30_8h.csv` (579 rows, `2025-10-03` → `2026-07-03`). **Full archive on [ork.ad](https://ork.ad/)** — **13,677** `8h` rows (~0.79 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2008-09-10` → `2026-07-03`.
 
 ## Download sample
 
@@ -42,11 +42,11 @@ Interactive chart & stats: **[https://ork-ad.github.io/ger30-8h-ohlcv-index-hist
 
 | | **Sample (this repo)** | **Full dataset ([ork.ad](https://ork.ad/))** |
 |---|--:|---|
-| Instrument | Germany 30 (DAX) · Stock index | Germany 30 (DAX) · Stock index |
+| Instrument | DAX · Stock index | DAX · Stock index |
 | Timeframes | `8h` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 8h rows | 562 | **587** |
-| Size | 0.04 MB | ~0.04 MB |
-| Period | `2025-10-02` → `2026-07-02` | `2025-09-22` → `2026-07-02` |
+| 8h rows | 579 | **13,677** |
+| Size | 0.04 MB | ~0.79 MB |
+| Period | `2025-10-03` → `2026-07-03` | `2008-09-10` → `2026-07-03` |
 | File | `GER30_8h.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`GER30_8h.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2025-10-02T16:00:00Z | 24481.825 | 24521.835 | 24473.325 | 24487.715 | 13698.0 |
-| 2025-10-03T00:00:00Z | 24487.715 | 24563.75 | 24469.775 | 24505.75 | 13782.0 |
-| 2025-10-03T08:00:00Z | 24505.75 | 24510.275 | 24365.24 | 24425.774 | 36579.0 |
-| 2025-10-03T16:00:00Z | 24425.774 | 24426.24 | 24358.774 | 24412.14 | 19746.0 |
-| 2025-10-06T00:00:00Z | 24412.14 | 24457.34 | 24286.34 | 24343.34 | 20600.0 |
+| 2025-10-03T16:00:00Z | 24399.73 | 24415.7 | 24397.72 | 24414.1 | 2581.0 |
+| 2025-10-05T16:00:00Z | 24414.1 | 24459.3 | 24389.83 | 24410.8 | 2668.0 |
+| 2025-10-06T00:00:00Z | 24410.8 | 24482.84 | 24288.3 | 24482.84 | 38736.0 |
+| 2025-10-06T08:00:00Z | 24482.84 | 24509.86 | 24390.85 | 24453.86 | 32711.0 |
+| 2025-10-06T16:00:00Z | 24453.86 | 24481.7 | 24433.65 | 24459.2 | 4018.0 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-07-01T08:00:00Z | 25076.3 | 25118.31 | 24904.3 | 25078.32 | 119908.0 |
-| 2026-07-01T16:00:00Z | 25078.32 | 25109.97 | 25054.46 | 25066.72 | 20743.0 |
-| 2026-07-02T00:00:00Z | 25066.72 | 25168.93 | 24970.16 | 25128.78 | 53369.0 |
-| 2026-07-02T08:00:00Z | 25128.78 | 25685.28 | 25113.76 | 25578.26 | 141460.0 |
+| 2026-07-02T08:00:00Z | 25308.81 | 25684.83 | 25300.31 | 25547.96 | 142622.0 |
+| 2026-07-02T16:00:00Z | 25547.96 | 25736.26 | 25547.96 | 25726.75 | 13392.0 |
+| 2026-07-03T00:00:00Z | 25726.75 | 25847.12 | 25632.59 | 25683.59 | 62910.0 |
+| 2026-07-03T08:00:00Z | 25683.59 | 25857.62 | 25678.59 | 25820.25 | 32272.0 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **GER30** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **587** rows at `8h`, plus all other timeframes in the same ZIP.
+The complete **GER30** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **13,677** rows at `8h`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full GER30 dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · GER30 8h OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-04 UTC*
+*GetData · GER30 8h OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-06 UTC*
